@@ -7,12 +7,11 @@ namespace EmployeeWage
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome This is a Employee Wage problem");
-            EmployeeClass Tcs = new EmployeeClass("TCS", 77, 30, 150);
-            EmployeeClass Wipro = new EmployeeClass("Wipro", 57, 27, 100);
-            Tcs.CompanyEmpWage();
-            Console.WriteLine(Tcs.ToString());
-            Wipro.CompanyEmpWage();
-            Console.WriteLine(Wipro.ToString());
+            EmpWageBuilderArray emp1 = new EmpWageBuilderArray();
+            emp1.AddCompanyEmpWage("bmw", 20, 2, 100);
+            emp1.AddCompanyEmpWage("tata", 30, 4, 200);
+            emp1.ComputeEmpWage();
+
         }
     }
 }

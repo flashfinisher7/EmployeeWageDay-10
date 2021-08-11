@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mvsan\\source\\repos\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj": {}
+    "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvsan\\source\\repos\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj": {
+    "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvsan\\source\\repos\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj",
+        "projectUniqueName": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj",
         "projectName": "EmployeeWage",
-        "projectPath": "C:\\Users\\mvsan\\source\\repos\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj",
+        "projectPath": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj",
         "packagesPath": "C:\\Users\\mvsan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mvsan\\source\\repos\\EmployeeWage\\EmployeeWage\\obj\\",
+        "outputPath": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mvsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
