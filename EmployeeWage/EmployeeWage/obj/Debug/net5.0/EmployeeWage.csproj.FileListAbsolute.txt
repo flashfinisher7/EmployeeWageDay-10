@@ -1,0 +1,16 @@
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage.exe
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage.deps.json
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage.runtimeconfig.json
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage.runtimeconfig.dev.json
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\ref\EmployeeWage.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage.pdb
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.csproj.AssemblyReference.cache
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.AssemblyInfoInputs.cache
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.AssemblyInfo.cs
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.csproj.CoreCompileInputs.cache
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\ref\EmployeeWage.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.pdb
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage.genruntimeconfig.cache
