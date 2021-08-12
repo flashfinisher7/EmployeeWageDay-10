@@ -6,32 +6,28 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    public class EmpWageBuilderArray : IComputeWage
+    public class EmployeeWage : IComputeWage
     {
+        private LinkedList<EmployeeClass> employeeClassList;
 
-        private int noofcompany = 0;
-        public EmployeeClass[] CompanyEmpWageArray;
-
-        public EmpWageBuilderArray()
+        public EmployeeWage()
         {
-            this.CompanyEmpWageArray = new EmployeeClass[5];
+            this.employeeClassList = new LinkedList<EmployeeClass>();
 
 
         }
+
+        internal void ComputeEmpWage()
+        {
+            throw new NotImplementedException();
+        }
+
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
         {
-            CompanyEmpWageArray[this.noofcompany] = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
-            noofcompany++;
+            EmployeeClass companyWage = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
+            this.employeeClassList.AddLast(companyWage);
         }
 
-        public void ComputeEmpWage()
-        {
-            for (int i = 0; i < noofcompany; i++)
-            {
-                CompanyEmpWageArray[i].SetTotalEmpWage(this.ComputeEmpWage(CompanyEmpWageArray[i]));
-                Console.WriteLine(this.CompanyEmpWageArray[i].ToString());
-            }
-        }
         public int ComputeEmpWage(EmployeeClass employeeClass)
         {
             int empHours = 0;
@@ -75,6 +71,11 @@ namespace EmployeeWage
             Console.WriteLine("Employee Wage for working days :" + employeeClass.TotalEmpWage);
             Console.WriteLine("Total  wage for " + employeeClass.Company + " is " + employeeClass.TotalEmpWage);
             return workingDays * employeeClass.WagePerHour;
+        }
+
+        void IComputeWage.ComputeEmpWage()
+        {
+            throw new NotImplementedException();
         }
     }
 }

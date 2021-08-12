@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj",
-      "projectName": "EmployeeWage",
-      "projectPath": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage.csproj",
+      "projectUniqueName": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage1.csproj",
+      "projectName": "EmployeeWage1",
+      "projectPath": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\EmployeeWage1.csproj",
       "packagesPath": "C:\\Users\\mvsan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mvsan\\fellowship_program\\day10\\EmployeeWage\\EmployeeWage\\EmployeeWage\\obj\\",
       "projectStyle": "PackageReference",

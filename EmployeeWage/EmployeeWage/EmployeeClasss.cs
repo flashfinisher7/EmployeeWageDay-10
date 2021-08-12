@@ -10,6 +10,7 @@ namespace EmployeeWage
     {
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays);
         public void ComputeEmpWage();
+        public int ComputeEmpWage(EmployeeClass employeeClass);
 
 
     }

@@ -1,0 +1,16 @@
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage1.exe
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage1.deps.json
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage1.runtimeconfig.json
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage1.runtimeconfig.dev.json
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage1.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\ref\EmployeeWage1.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net5.0\EmployeeWage1.pdb
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.AssemblyInfoInputs.cache
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.AssemblyInfo.cs
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.csproj.CoreCompileInputs.cache
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\ref\EmployeeWage1.dll
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.pdb
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.genruntimeconfig.cache
+C:\Users\mvsan\fellowship_program\day10\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net5.0\EmployeeWage1.csproj.AssemblyReference.cache
