@@ -6,33 +6,32 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    public class EmpWageBuilderArray : IComputeWage
+    class EmployeeWage : IComputeWage
     {
+        private LinkedList<EmployeeClass> employeeClassList;
+        private Dictionary<string, EmployeeClass> companyWage;
 
-        private int noofcompany = 0;
-        public EmployeeClass[] CompanyEmpWageArray;
-
-        public EmpWageBuilderArray()
+        public EmployeeWage()
         {
-            this.CompanyEmpWageArray = new EmployeeClass[5];
-
+            this.employeeClassList = new LinkedList<EmployeeClass>();
+            this.companyWage = new Dictionary<string, EmployeeClass>();
 
         }
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
         {
-            CompanyEmpWageArray[this.noofcompany] = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
-            noofcompany++;
+            EmployeeClass companyWage = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
+            this.employeeClassList.AddLast(companyWage);
         }
-
         public void ComputeEmpWage()
         {
-            for (int i = 0; i < noofcompany; i++)
+            foreach (EmployeeClass employeeClass in this.employeeClassList)
             {
-                CompanyEmpWageArray[i].SetTotalEmpWage(this.ComputeEmpWage(CompanyEmpWageArray[i]));
-                Console.WriteLine(this.CompanyEmpWageArray[i].ToString());
+                employeeClass.SetTotalEmpWage(this.ComputeEmpWage(employeeClass));
+                Console.WriteLine(employeeClass.ToString());
             }
         }
-        public int ComputeEmpWage(EmployeeClass employeeClass)
+    
+        private int ComputeEmpWage(EmployeeClass employeeClass)
         {
             int empHours = 0;
             int empDailyWage = 0;
@@ -76,5 +75,10 @@ namespace EmployeeWage
             Console.WriteLine("Total  wage for " + employeeClass.Company + " is " + employeeClass.TotalEmpWage);
             return workingDays * employeeClass.WagePerHour;
         }
+        public int getTotalWage(string company)
+        {
+            return this.companyWage[company].TotalEmpWage;
+        }
+
     }
 }
