@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    class EmpWageBuilderArray
+    public class EmpWageBuilderArray : IComputeWage
     {
 
         private int noofcompany = 0;

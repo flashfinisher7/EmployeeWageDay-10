@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    class EmployeeClass
+    public interface IComputeWage
+    {
+        public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays);
+        public void ComputeEmpWage();
+
+
+    }
+    public class EmployeeClass
     {
         public string Company;
         public int WagePerHour;
@@ -29,4 +36,5 @@ namespace EmployeeWage
             return "Total employee wage for " + Company + " is " + TotalEmpWage;
         }
     }
+
 }
